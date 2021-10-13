@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekti</title>
+   
+</head>
+<body>
+    <div class="banner-a">
+        <div class="hederi sticky">
+            <img src="images/Ubtlogo.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="studimi.html">Studimi</a></li>
+                <li><a href="#">Apliko</a></li>
+                <li><a href="#">Evente</a></li>
+                <li><a href="#">Kontaktet</a></li>
+            </ul>
+        </div>
+   
+    <div class="content">
+        <h1>Aplikoni tani!</h1>
+        
+        <div class="container">
+            <div class="link-container">
+              <a id="firstA" href="#" onclick="changeForm(0)">Login</a>
+              <a href="#" onclick="changeForm(1)">Register</a>
+            </div>
+            <form id="mainForm" action="">
+              <div class="login forms form-style">
+                <label for="">Username:</label>
+                <input type="text" class="input" placeholder="username..." />
+                <label for="">Password:</label>
+                <input type="password" class="input" placeholder="password..." />
+                <input id="submit" type="submit" class="input submit" value="Login" onclick="validate(0)" />
+              </div>
+              <div class="register forms hidden">
+                <label for="">Emri:</label>
+                <input type="text" class="input" placeholder="username..." />
+
+                <label for="">Mbiemri:</label>
+                <input type="text" class="input" placeholder="password..." />
+
+                <label for="">Data e lindjes:</label>
+                <input type="date" class="input" placeholder="Ditlindja">
+
+                <label for="">Numri i telefonit:</label>
+                <input type="number" class="input" placeholder="+383 XXX XXX XXX" >
+                <label for="">Email adressa:</label>
+                <input type="email" class="input" placeholder="xxxxx@ubt-uni.net" ">
+              
+                <label for="">Password:</label>
+                <input type="text" class="input" placeholder="password..." />
+                <input id="submit" type="submit" class="input submit" value="Login" onclick="validate(1)" />
+               
+              </div>
+            </form>
+          </div>
+    </div>
+    
+
+</div>
+
+<script src="main.js"></script>
+
+   
+<footer>
+   
+        <h1 id="ubtfoter"> UBT 2020 &copy;</h1>
+        <a href="https://www.facebook.com/UniversitetiUBT/">Facebook</a>
+        <h2 id="ubtfoter"> 
+            Lagjia Kalabria
+            ,10000 Pristina</h2>
+       
+
+</footer>
+
+</body>
+</html>
